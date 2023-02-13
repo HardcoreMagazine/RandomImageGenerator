@@ -9,11 +9,15 @@
             for (int i = 0; i < files.Length; i++)
             {
                 string filename = Path.GetFileName(files[i]);
-                if (filename.Split('.')[1] == "txt")
+                try
                 {
-                    int value = Convert.ToInt32(filename.Split('.')[0]);
-                    if (value >= id) id = value + 1;
+                    if (filename.Split('.')[1] == "txt")
+                    {
+                        int value = Convert.ToInt32(filename.Split('.')[0]);
+                        if (value >= id) id = value + 1;
+                    }
                 }
+                catch {}
             }
         }
 
@@ -61,7 +65,7 @@
             Console.Title = "Random image generator";
             Console.TreatControlCAsInput = false;
             Console.Write("* Random (abstract) image generator by HardcoreMagazine\n" +
-                          "* Github: TODO\n\n" + 
+                          "* Github: https://github.com/HardcoreMagazine/RandomImageGenerator\n\n" + 
                           "* Controls:\n" + 
                           "** RIGHT ARROW - create new image\n" + 
                           "** S\t       - save current image in file\n" +
