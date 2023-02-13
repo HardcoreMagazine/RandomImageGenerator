@@ -3,7 +3,7 @@
 RIG is a byproduct from my [previous project](https://github.com/HardcoreMagazine/Enlashceoc), 
 discovered by accident during creation of maze generation algorithm.  
 RIG allows you to create random abstract images, just like this one:
-![](images/screenshot1.png)  
+![](images/screenshot.png)  
 *Please note that this algorithm is highly unstable and it may take a while until you get clear 
 picture instead of random mess.*
 
