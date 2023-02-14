@@ -64,15 +64,16 @@
         {
             Console.Title = "Random image generator";
             Console.TreatControlCAsInput = false;
-            Console.Write("* Random (abstract) image generator by HardcoreMagazine\n" +
-                          "* Github: https://github.com/HardcoreMagazine/RandomImageGenerator\n\n" + 
-                          "* Controls:\n" + 
-                          "** RIGHT ARROW - create new image\n" + 
-                          "** S\t       - save current image in file\n" +
-                          "** I\t       - invert image colors\n" +
-                          "** R\t       - rotate image 180 degrees\n" +
-                          "** ESC\t       - exit program\n\n" + 
-                          "* Press any key continue...");
+            Console.Write($"* Random (abstract) image generator by HardcoreMagazine\n" +
+                          $"* Github: https://github.com/HardcoreMagazine/RandomImageGenerator\n\n" + 
+                          $"* Controls:\n" + 
+                          $"** RIGHT ARROW - create new image\n" + 
+                          $"** S\t       - save current image in file\n" +
+                          $"** I\t       - invert image colors\n" +
+                          $"** R\t       - rotate image 180 degrees\n" +
+                          $"** ESC\t       - exit program\n\n" +
+                          $"* Images saved as text files under current program directory in 'saved_images' subfolder\n\n" +
+                          $"* Press any key continue...");
             Console.ReadKey(true);
             char[] img = NewImage();
             while (true)

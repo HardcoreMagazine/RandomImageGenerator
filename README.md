@@ -16,7 +16,7 @@ picture instead of random mess.*
 
 ---
 ## Download
-+ [.NET 6 dependant version / win x64 only](https://github.com/HardcoreMagazine/RandomImageGenerator/releases/download/v1.0/RandomImageGenerator.zip)
++ [.NET 6 dependant / latest version / Win x64](https://github.com/HardcoreMagazine/RandomImageGenerator/releases/download/v1.0/RandomImageGenerator.zip)
 
 ---
 ## License
